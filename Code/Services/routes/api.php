@@ -28,9 +28,12 @@ use App\Http\Controllers\Others\Master\HotelCategoryMasterController;
 use App\Http\Controllers\Others\Master\HotelAdditionalMasterController;
 use App\Http\Controllers\Others\Master\RestaurantMealPlanMasterController;
 use App\Http\Controllers\Others\Master\ItineraryInfoMasterController;
+use App\Http\Controllers\Others\Master\LetterMasterController;
+
 //===============================HOTEL CONTROLLERS==================================
 use App\Http\Controllers\Hotel\Master\HotelRateMasterController;
 use App\Http\Controllers\Hotel\Master\SearchHotelRateController;
+
 //===============================TRANSPORT CONTROLLERS==================================
 use App\Http\Controllers\Transport\Master\VehicleTypeMasterController;
 use App\Http\Controllers\Transport\Master\VehicleBrandMasterController;
@@ -116,6 +119,9 @@ Route::post('/addupdatemarket',[MarketMasterController::class,'store']);
 
 Route::post('/itineraryinfomasterlist',[ItineraryInfoMasterController::class,'index']);
 Route::post('/addupdateitineraryinfomaster',[ItineraryInfoMasterController::class,'store']);
+
+Route::post('/lettermasterlist',[LetterMasterController::class,'index']);
+Route::post('/addupdatelettermaster',[LetterMasterController::class,'store']);
 //===========================================END HERE========================================
 
 // ========================================Hotel API ROUTE===================================
