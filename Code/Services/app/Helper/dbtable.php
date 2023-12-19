@@ -32,6 +32,8 @@ define("_CONTACT_PERSON_MASTER_", "others.contact_person_master");
 define("_MARKET_MASTER_", "others.market_master");
 define("_ITINERARY_INFO_MASTER_", "others.itinerary_info_master");
 define("_LETTER_MASTER_", "others.letter_master");
+define("_ADDITIONAL_REQUIREMENT_MASTER_", "others.additional_requirement_master");
+
 /////////////////////////////END HERE///////////////////////////
 
 /////////////////////////HOTEL RELATED MASTER///////////////////
