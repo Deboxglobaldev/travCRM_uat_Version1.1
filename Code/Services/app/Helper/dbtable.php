@@ -51,6 +51,10 @@ define("_TRANSFER_TYPE_MASTER_", "transport.transfer_type_master");
 define("_VEHICLE_MASTER_", "transport.vehicle_master");
 /////////////////////END HERE///////////////////////////////
 
+/////////////////////////VISA RELATED MASTER///////////////////
+define("_VISA_MASTER_", "visa.visa_type_master");
+/////////////////////END HERE///////////////////////////////
+
 
 ///////////////////////SIGHTSEEING RELATED MASTER //////////////////////////////?
 define("_AIRLINE_MASTER_", "sightseeing.airline_master");
