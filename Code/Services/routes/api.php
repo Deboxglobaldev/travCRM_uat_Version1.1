@@ -48,6 +48,10 @@ use App\Http\Controllers\Sightseeing\Master\AirlineMasterController;
 use App\Http\Controllers\Sightseeing\Master\MonumentMasterController;
 use App\Http\Controllers\Sightseeing\Master\SightseeingMasterController;
 use App\Http\Controllers\Sightseeing\Master\TrainMasterController;
+use App\Http\Controllers\Sightseeing\Master\MonumentRateMasterController;
+use App\Http\Controllers\Sightseeing\Master\AirRateMasterController;
+use App\Http\Controllers\Sightseeing\Master\ActivityRateMasterController;
+use App\Http\Controllers\Sightseeing\Master\TrainRateMasterController;
 
 //===============================HOTEL CONTROLLERS==================================
 use App\Http\Controllers\Visa\Master\VisaMasterController;
@@ -179,6 +183,19 @@ Route::post('/addupdatesightseeingmaster',[SightseeingMasterController::class,'s
 
 Route::post('/monumentmasterlist',[MonumentMasterController::class,'index']);
 Route::post('/addupdatemonumentmaster',[MonumentMasterController::class,'store']);
+
+Route::post('/monumentratemasterlist',[MonumentRateMasterController::class,'index']);
+Route::post('/addupdatemonumentratemaster',[MonumentRateMasterController::class,'store']);
+
+Route::post('/trainratemasterlist',[TrainRateMasterController::class,'index']);
+Route::post('/addupdatetrainratemaster',[TrainRateMasterController::class,'store']);
+
+Route::post('/activityratemasterlist',[ActivityRateMasterController::class,'index']);
+Route::post('/addupdateactivityratemaster',[ActivityRateMasterController::class,'store']);
+
+Route::post('/airratemasterlist',[AirRateMasterController::class,'index']);
+Route::post('/addupdateairratemaster',[AirRateMasterController::class,'store']);
+
 // ===========================================END HERE=======================================
 
 // =============================================SIGHTSEENING API ROUTE================================

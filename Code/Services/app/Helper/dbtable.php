@@ -61,5 +61,9 @@ define("_AIRLINE_MASTER_", "sightseeing.airline_master");
 define("_TRAIN_MASTER_", "sightseeing.train_master");
 define("_MONUMENT_MASTER_", "sightseeing.monument_master");
 define("_SIGHTSEEING_MASTER_", "sightseeing.sightseeing_master");
+define("_MONUMENT_RATE_MASTER_", "sightseeing.monument_rate_master");
+define("_TRAIN_RATE_MASTER_", "sightseeing.train_rate_master");
+define("_AIR_RATE_MASTER_", "sightseeing.air_rate_master");
+define("_ACTIVITY_RATE_MASTER_", "sightseeing.activity_rate_master");
 
 ?>
