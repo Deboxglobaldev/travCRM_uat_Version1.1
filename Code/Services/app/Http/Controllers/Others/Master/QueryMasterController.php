@@ -96,8 +96,9 @@ public function store(Request $request)
             if($validatordata->fails()){
                 return $validatordata->errors();
             }else{
+                $otp = mt_rand(100000, 999999);
              $savedata = QueryMaster::create([
-                "QueryId" => $request->QueryId,
+                "QueryId" => $otp,
                     "ClientType" => $request->ClientType,
                     "AgentId" => $request->AgentId,
                     "LeadPax" => $request->LeadPax,
