@@ -58,7 +58,8 @@ class UserMasterController extends Controller
                         'Code' => $request['Data']['Code'],
                         'Status' => $request['Data']['Status'],
                     );
-                    
+                    //print_r($request['Data']['Name']);
+             //exit;
 
                  $savedata = UserMaster::create([
                     'Title' => $request->Title,

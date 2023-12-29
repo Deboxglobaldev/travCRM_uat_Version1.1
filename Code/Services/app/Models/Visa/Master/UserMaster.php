@@ -19,3 +19,4 @@ class UserMaster extends Model
         'Data' => 'array'
     ];
 }
+//UserMaster
