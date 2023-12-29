@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class MarketMaster extends Migration
+class TrainRateMaster extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,16 @@ class MarketMaster extends Migration
      */
     public function up()
     {
-        Schema::create(_MARKET_MASTER_, function (Blueprint $table) {
+        Schema::create(_TRAIN_RATE_MASTER_, function (Blueprint $table) {
             $table->id();
-            $table->string('Name', 100);
-            $table->integer('Status')->default(0);
+            $table->string('TrainNumber',100);
+            $table->string('JourneyType',100);
+            $table->string('TrainClasses',100);
+            $table->integer('Currency');
+            $table->integer('AdultCost');
+            $table->integer('childCost');
+            $table->integer('InfantCost');
+            $table->text('Remarks');
             $table->integer('AddedBy')->default(0);
             $table->integer('UpdatedBy')->default(0);
             $table->timestamps();

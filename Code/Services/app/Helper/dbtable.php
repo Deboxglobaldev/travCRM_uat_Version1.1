@@ -34,6 +34,7 @@ define("_ITINERARY_INFO_MASTER_", "others.itinerary_info_master");
 define("_LETTER_MASTER_", "others.letter_master");
 define("_ADDITIONAL_REQUIREMENT_MASTER_", "others.additional_requirement_master");
 define("_IMAGE_GALLERY_MASTER_", "others.image_gallery_master");
+define("_QUERY_MASTER_", "others.query_master");
 
 
 /////////////////////////////END HERE///////////////////////////
@@ -51,9 +52,7 @@ define("_TRANSFER_TYPE_MASTER_", "transport.transfer_type_master");
 define("_VEHICLE_MASTER_", "transport.vehicle_master");
 /////////////////////END HERE///////////////////////////////
 
-/////////////////////////VISA RELATED MASTER///////////////////
-define("_VISA_MASTER_", "visa.visa_type_master");
-/////////////////////END HERE///////////////////////////////
+
 
 
 ///////////////////////SIGHTSEEING RELATED MASTER //////////////////////////////?

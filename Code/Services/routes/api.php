@@ -31,6 +31,7 @@ use App\Http\Controllers\Others\Master\ItineraryInfoMasterController;
 use App\Http\Controllers\Others\Master\LetterMasterController;
 use App\Http\Controllers\Others\Master\AdditionalRequirementMasterController;
 use App\Http\Controllers\Others\Master\ImageGalleryMasterController;
+use App\Http\Controllers\Others\Master\QueryMasterController;
 
 
 //===============================HOTEL CONTROLLERS==================================
@@ -144,6 +145,9 @@ Route::post('/addupdatelettermaster',[LetterMasterController::class,'store']);
 
 Route::post('/imagegallerylist',[ImageGalleryMasterController::class,'index']);
 Route::post('/addupdateimagegallery',[ImageGalleryMasterController::class,'store']);
+
+Route::post('/querymasterlist',[QueryMasterController::class,'index']);
+Route::post('/addupdatequerymaster',[QueryMasterController::class,'store']);
 
 Route::post('/additionalrequirementmasterlist',[AdditionalRequirementMasterController::class,'index']);
 Route::post('/addupdateadditionalrequirementmaster',[AdditionalRequirementMasterController::class,'store']);
