@@ -49,8 +49,9 @@ use App\Http\Controllers\Sightseeing\Master\MonumentMasterController;
 use App\Http\Controllers\Sightseeing\Master\SightseeingMasterController;
 use App\Http\Controllers\Sightseeing\Master\TrainMasterController;
 
-//===============================HOTEL CONTROLLERS==================================
+//===============================VISA CONTROLLERS==================================
 use App\Http\Controllers\Visa\Master\VisaMasterController;
+use App\Http\Controllers\Visa\Master\UserMasterController;
 
 
 
@@ -184,3 +185,9 @@ Route::post('/addupdatemonumentmaster',[MonumentMasterController::class,'store']
 // =============================================SIGHTSEENING API ROUTE================================
 Route::post('/visamasterlist',[VisaMasterController::class,'index']);
 Route::post('/addupdatevisamaster',[VisaMasterController::class,'store']);
+
+Route::post('/adduser',[UserMasterController::class,'store']);
+Route::post('/userlist',[UserMasterController::class,'index']);
+
+
+
