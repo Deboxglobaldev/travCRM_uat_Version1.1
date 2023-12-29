@@ -50,9 +50,13 @@ define("_VEHICLE_TYPE_MASTER_", "transport.vehicle_type_master");
 define("_VEHICLE_BRAND_MASTER_", "transport.vehicle_brand_master");
 define("_TRANSFER_TYPE_MASTER_", "transport.transfer_type_master");
 define("_VEHICLE_MASTER_", "transport.vehicle_master");
+/////////////////////END HERE//////////////////////////////  
+
+
+/////////////////////////VISA RELATED MASTER///////////////////
+define("_VISA_MASTER_", "visa.visa_type_master");
+define("_USER_MASTER_", "visa.user_type_master");
 /////////////////////END HERE///////////////////////////////
-
-
 
 
 ///////////////////////SIGHTSEEING RELATED MASTER //////////////////////////////?
