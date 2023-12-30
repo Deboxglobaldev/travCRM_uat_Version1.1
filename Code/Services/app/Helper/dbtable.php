@@ -50,6 +50,10 @@ define("_VEHICLE_TYPE_MASTER_", "transport.vehicle_type_master");
 define("_VEHICLE_BRAND_MASTER_", "transport.vehicle_brand_master");
 define("_TRANSFER_TYPE_MASTER_", "transport.transfer_type_master");
 define("_VEHICLE_MASTER_", "transport.vehicle_master");
+define("_CABIN_CATEGORY_MASTER_", "transport.cabin_category_master");
+define("_CABIN_TYPE_MASTER_", "transport.cabin_type_master");
+define("_CRUISE_MASTER_", "transport.cruise_master");
+define("_CRUISE_COMPANY_MASTER_", "transport.cruise_company_master");
 /////////////////////END HERE//////////////////////////////  
 
 
