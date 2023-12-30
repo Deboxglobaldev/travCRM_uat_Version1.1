@@ -4,8 +4,6 @@ namespace App\Models\Others\master;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Concerns\HidesAttributes;
-
 
 class QueryMaster extends Model
 {
@@ -41,11 +39,4 @@ class QueryMaster extends Model
         'updated_at',
     ];
     public $timestamps = false;
-
-    protected $casts = [
-        'ValueAddedServices' => 'json',
-        'TravelDate' => 'json',
-        'PaxInfo' => 'json',
-        'RoomInfo' => 'json',
-    ];
 }
