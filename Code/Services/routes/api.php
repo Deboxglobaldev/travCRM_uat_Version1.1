@@ -62,6 +62,7 @@ use App\Http\Controllers\Sightseeing\Master\TrainRateMasterController;
 //===============================VISA CONTROLLERS==================================
 use App\Http\Controllers\Visa\Master\VisaMasterController;
 use App\Http\Controllers\Visa\Master\UserMasterController;
+use App\Http\Controllers\Visa\Master\PackageMasterController;
 
 
 
@@ -223,12 +224,16 @@ Route::post('/addupdateairratemaster',[AirRateMasterController::class,'store']);
 
 // ===========================================END HERE=======================================
 
-// =============================================SIGHTSEENING API ROUTE================================
+// =============================================VISA API ROUTE================================
 Route::post('/visamasterlist',[VisaMasterController::class,'index']);
 Route::post('/addupdatevisamaster',[VisaMasterController::class,'store']);
 
 Route::post('/adduser',[UserMasterController::class,'store']);
 Route::post('/userlist',[UserMasterController::class,'index']);
+
+Route::post('/addpackage',[PackageMasterController::class,'store']);
+Route::post('/packagelist',[PackageMasterController::class,'index']);
+
 
 
 

@@ -61,6 +61,7 @@ define("_CRUISE_NAME_MASTER_", "transport.cruise_name_master");
 /////////////////////////VISA RELATED MASTER///////////////////
 define("_VISA_MASTER_", "visa.visa_type_master");
 define("_USER_MASTER_", "visa.user_type_master");
+define("_PACKAGE_MASTER_", "visa.package_master");
 /////////////////////END HERE///////////////////////////////
 
 
