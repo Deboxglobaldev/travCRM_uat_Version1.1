@@ -37,6 +37,7 @@ use App\Http\Controllers\Others\Master\QueryMasterController;
 //===============================HOTEL CONTROLLERS==================================
 use App\Http\Controllers\Hotel\Master\HotelRateMasterController;
 use App\Http\Controllers\Hotel\Master\SearchHotelRateController;
+//use App\Http\Controllers\Hotel\Master\QueryIntegretionController;
 
 //===============================TRANSPORT CONTROLLERS==================================
 use App\Http\Controllers\Transport\Master\VehicleTypeMasterController;
@@ -62,7 +63,7 @@ use App\Http\Controllers\Sightseeing\Master\TrainRateMasterController;
 //===============================VISA CONTROLLERS==================================
 use App\Http\Controllers\Visa\Master\VisaMasterController;
 use App\Http\Controllers\Visa\Master\UserMasterController;
-use App\Http\Controllers\Visa\Master\PackageMasterController;
+use App\Http\Controllers\Visa\Master\PackagesMasterController;
 
 
 
@@ -231,8 +232,8 @@ Route::post('/addupdatevisamaster',[VisaMasterController::class,'store']);
 Route::post('/adduser',[UserMasterController::class,'store']);
 Route::post('/userlist',[UserMasterController::class,'index']);
 
-Route::post('/addpackage',[PackageMasterController::class,'store']);
-Route::post('/packagelist',[PackageMasterController::class,'index']);
+Route::post('/addpackage',[PackagesMasterController::class,'store']);
+Route::post('/packagelist',[PackagesMasterController::class,'index']);
 
 
 
