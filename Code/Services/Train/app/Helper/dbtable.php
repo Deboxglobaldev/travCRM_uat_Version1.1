@@ -7,7 +7,10 @@ define("_DB_", "pgsql");
 
 /////////////////////////FOR TRAIN ONLY///////////////////
 define("_TRAIN_RATE_MASTER_", "train.train_rate_master");
+define("_SEARCH_TRAIN_RATE_", "train.search_train_rate");
 
 /////////////////////END HERE/////////////////////////////
+
+
 
 ?>
