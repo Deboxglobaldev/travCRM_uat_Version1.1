@@ -47,6 +47,8 @@ use App\Http\Controllers\Master\UserMasterController;
 use App\Http\Controllers\Master\VisaMasterController;
 use App\Http\Controllers\Master\PackagesMasterController;
 use App\Http\Controllers\Master\FerrySearMasterController;
+use App\Http\Controllers\Master\FerryNameMasterController;
+use App\Http\Controllers\Master\FerryCompanyMasterController;
 
 
 //====================================OTHERS COMMON API ROUTE======================================
@@ -137,6 +139,12 @@ Route::post('/addupdateadditionalrequirementmaster',[AdditionalRequirementMaster
 
 Route::post('/ferrysearlist',[FerrySearMasterController::class,'index']);
 Route::post('/addupdateferrysear',[FerrySearMasterController::class,'store']);
+
+Route::post('/ferrynamelist',[FerryNameMasterController::class,'index']);
+Route::post('/addupdateferryname',[FerryNameMasterController::class,'store']);
+
+Route::post('/ferrycompanylist',[FerryCompanyMasterController::class,'index']);
+Route::post('/addupdateferrycompany',[FerryCompanyMasterController::class,'store']);
 //===========================================END HERE========================================
 
 // ========================================Transport API ROUTE===============================
