@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PdfExtractController;
+use App\Http\Controllers\Master\PdfExtractController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('pdf', [PdfExtractController::class, 'extractPDF']);
+Route::get('ShowPdf', [PdfExtractController::class, 'ReadPdf']);
