@@ -1,0 +1,1595 @@
+127.0.0.1	29-12-2023 03:05:19 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "lunch",
+    "Status" : "0",
+    "AddedBy" : "1",
+    "UpdatedBy" : "1"
+
+}127.0.0.1	29-12-2023 03:05:19 PM	Exception Error  ===>  SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Status" of relation "tour_type_master" does not exist
+LINE 1: insert into "others"."tour_type_master" ("Name", "Status", "...
+                                                         ^ (SQL: insert into "others"."tour_type_master" ("Name", "Status", "AddedBy", "created_at") values (lunch, 0, 1, 2023-12-29 15:05:19) returning "id")127.0.0.1	29-12-2023 03:05:31 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:05:52 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "lunch",
+    "Status" : 0,
+    "AddedBy" : 1,
+    "UpdatedBy" : 1
+
+}127.0.0.1	29-12-2023 03:05:53 PM	Exception Error  ===>  SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Status" of relation "tour_type_master" does not exist
+LINE 1: insert into "others"."tour_type_master" ("Name", "Status", "...
+                                                         ^ (SQL: insert into "others"."tour_type_master" ("Name", "Status", "AddedBy", "created_at") values (lunch, 0, 1, 2023-12-29 15:05:53) returning "id")127.0.0.1	29-12-2023 03:07:37 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "lunch",
+    "Status" : 0,
+    "AddedBy" : 1,
+    "UpdatedBy" : 1
+
+}127.0.0.1	29-12-2023 03:08:42 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:09:06 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "luddnch",
+    "Status" : "0",
+    "AddedBy" : 1,
+    "UpdatedBy" : 1
+
+}127.0.0.1	29-12-2023 03:09:16 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:10:28 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "ldduddnch",
+    "Status" : "0",
+    "AddedBy" : 1,
+    "UpdatedBy" : 1
+
+}127.0.0.1	29-12-2023 03:22:34 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "Name" : "ldduddnchhh"
+
+}127.0.0.1	29-12-2023 03:22:41 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:28:43 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:31:10 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id": "",
+    "QueryId": 12
+}127.0.0.1	29-12-2023 03:31:26 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:32:26 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:33:09 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": "Create Random",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:33:09 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:33:25 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": "Create Random",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:33:25 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:33:52 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": "Create Random",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:33:52 PM	Exception Error  ===>  SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "Create Random" (SQL: insert into "others"."query_master" ("QueryId", "ClientType", "AgentId", "LeadPax", "Subject", "AddEmail", "AdditionalInfo", "QueryType", "ValueAddedServices", "TravelInfo", "PaxType", "TravelDate", "PaxInfo", "RoomInfo", "Priority", "TAT", "TourType", "LeadSource", "LeadRefrenceId", "HotelPrefrence", "HotelType", "MealPlan", "AddedBy", "created_at") values (Create Random, 1, 10, 5, outing, satendra@mail.com, some test here, 1, ?, ?, ?, ?, ?, ?, 1, 1, 1, 1, 45465ASDF, 3, 3, 2, ?, 2023-12-29 15:33:52) returning "id")127.0.0.1	29-12-2023 03:34:11 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": "Create Random",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:34:11 PM	Exception Error  ===>  SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "Create Random" (SQL: insert into "others"."query_master" ("QueryId", "ClientType", "AgentId", "LeadPax", "Subject", "AddEmail", "AdditionalInfo", "QueryType", "ValueAddedServices", "TravelInfo", "PaxType", "TravelDate", "PaxInfo", "RoomInfo", "Priority", "TAT", "TourType", "LeadSource", "LeadRefrenceId", "HotelPrefrence", "HotelType", "MealPlan", "AddedBy", "created_at") values (Create Random, 1, 10, 5, outing, ?, some test here, 1, ?, ?, ?, ?, ?, ?, 1, 1, 1, 1, 45465ASDF, 3, 3, 2, ?, 2023-12-29 15:34:11) returning "id")127.0.0.1	29-12-2023 03:34:29 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": "Create Random",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1
+   
+}127.0.0.1	29-12-2023 03:34:29 PM	Exception Error  ===>  SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "Create Random" (SQL: insert into "others"."query_master" ("QueryId", "ClientType", "AgentId", "LeadPax", "Subject", "AddEmail", "AdditionalInfo", "QueryType", "ValueAddedServices", "TravelInfo", "PaxType", "TravelDate", "PaxInfo", "RoomInfo", "Priority", "TAT", "TourType", "LeadSource", "LeadRefrenceId", "HotelPrefrence", "HotelType", "MealPlan", "AddedBy", "created_at") values (Create Random, 1, 10, 5, outing, ?, some test here, 1, ?, ?, ?, ?, ?, ?, 1, 1, 1, 1, ?, ?, ?, ?, ?, 2023-12-29 15:34:29) returning "id")127.0.0.1	29-12-2023 03:34:40 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": "1",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1
+   
+}127.0.0.1	29-12-2023 03:35:11 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:35:11 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:35:20 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:35:20 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:35:29 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:35:29 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:36:25 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : "sas",
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:36:25 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:36:51 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : "sas",
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : "sas",
+    "PaxInfo" : "s",
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:36:51 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:37:05 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : "sas",
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : "sas",
+    "PaxInfo" : "s",
+    "RoomInfo" : "s",
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:37:21 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:38:13 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id" : "",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : ["main":"sas"],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : "sas",
+    "PaxInfo" : "s",
+    "RoomInfo" : "s",
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:39:40 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    ],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    ],
+    "PaxInfo" : [
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    ],
+    "RoomInfo" : [
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    ],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:39:48 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:40:21 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 3,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    ],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    ],
+    "PaxInfo" : [
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    ],
+    "RoomInfo" : [
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    ],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:40:34 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 03:41:57 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 56,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    ],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    ],
+    "PaxInfo" : [
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    ],
+    "RoomInfo" : [
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    ],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:42:09 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    ],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    ],
+    "PaxInfo" : [
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    ],
+    "RoomInfo" : [
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    ],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:43:08 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    ],
+    "PaxInfo" : [
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    ],
+    "RoomInfo" : [
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    ],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:44:03 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+}],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+}],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+}],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:44:03 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:44:58 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "",
+        "ToDate" : "",
+        "TotalDays" : 3
+}],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+}],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+}],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:44:58 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:45:24 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendramail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "",
+        "ToDate" : "",
+        "TotalDays" : 3
+}],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+}],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+}],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:45:24 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:46:04 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:46:04 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:46:14 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:49:02 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:49:02 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 03:55:54 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 03:55:54 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:04:43 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:04:43 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:04:57 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:04:57 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:07:19 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:07:19 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:07:25 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:07:25 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:07:39 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:07:39 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:08:23 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:08:23 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:08:37 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:13:53 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 57,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+}],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:13:53 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:17:31 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:17:31 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:17:47 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com,abc@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:17:47 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:17:56 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:17:56 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:25:35 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:25:35 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:34:43 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:34:43 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:36:09 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:36:09 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:36:27 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:36:27 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:42:56 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:42:56 PM	Exception Error  ===>  Array to string conversion127.0.0.1	29-12-2023 04:46:33 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id":"",
+    "QueryId": 1,
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:47:00 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 04:48:04 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id": "",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:48:13 PM	REQUEST COMES FROM STATE LIST: 127.0.0.1	29-12-2023 04:54:42 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id": "",
+    "ClientType" : 1,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:54:50 PM	REQUEST COMES FROM ADD/UPDATE STATE: {
+    "id": "",
+    "ClientType" : 12,
+    "AgentId" : 10,
+    "LeadPax" : 5,
+    "Subject" : "outing",
+    "AddEmail" : "satendra@mail.com",
+    "AdditionalInfo" : "some test here",
+    "QueryType" : 1,
+    "ValueAddedServices" : [{
+        "Flight": "NO",
+        "Visa" : "NO",
+        "Insurance": "NO",
+        "Train": "NO",
+        "Transfer": "NO"
+    }],
+    "TravelInfo" : 1,
+    "PaxType" : 1,
+    "TravelDate" : [{
+        "Type": 1,
+        "FromDate" : "29-12-2023",
+        "ToDate" : "31-12-2023",
+        "TotalDays" : 3
+    }],
+    "PaxInfo" : [{
+        "Adult": 2,
+        "Child" : 1,
+        "Infant": 1
+    }],
+    "RoomInfo" : [{
+        "Single": 1,
+        "Double" : 0,
+        "Twin": 0,
+        "Triple": 0,
+        "ExtraBed": 0
+    }],
+    "Priority" : 1,
+    "TAT" : 1,
+    "TourType" : 1,
+    "LeadSource" : 1,
+    "LeadRefrenceId" : "45465ASDF",
+    "HotelPrefrence" : 3,
+    "HotelType" : 3,
+    "MealPlan" : 2
+}127.0.0.1	29-12-2023 04:55:32 PM	REQUEST COMES FROM STATE LIST: 
