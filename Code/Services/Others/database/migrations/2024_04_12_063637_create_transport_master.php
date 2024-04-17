@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create(_FERRY_NAME_MASTER_, function (Blueprint $table) {
+        Schema::create(_TRANSPORT_MASTER_, function (Blueprint $table) {
             $table->id();
-            $table->string('FerryCompany');
-            $table->string('FerryName');
-            $table->string('Capacity');
-            $table->string('ImageName');
-            $table->text('ImageData');
+            $table->string('Name');
+            $table->string('Destinations');
+            $table->string('TransferType');
+            $table->string('Detail');
+            $table->string('Default');
             $table->integer('Status')->default(0);
             $table->integer('AddedBy')->default(0);
             $table->integer('UpdatedBy')->default(0);
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('transport_master');
     }
 };

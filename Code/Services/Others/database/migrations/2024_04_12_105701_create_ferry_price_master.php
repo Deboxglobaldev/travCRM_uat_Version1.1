@@ -11,17 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create(_FERRY_COMPANY_MASTER_, function (Blueprint $table) {
+        Schema::create(_FERRY_PRICE_MASTER_, function (Blueprint $table) {
             $table->id();
-            $table->string('FerryCompanyName');
-            $table->string('Destination');
-            $table->string('Website');
-            $table->string('SelfSupplier');
-            $table->string('Type');
-            $table->string('ContactPers');
-            $table->string('Designation');
-            $table->string('Phone');
-            $table->string('Email');
+            $table->string('Name');
+            $table->string('FromDestination');
+            $table->string('ToDestination');
+            $table->string('ArrivalTime');
+            $table->string('DepartureTime');
+            $table->string('Detail');
             $table->integer('Status')->default(0);
             $table->integer('AddedBy')->default(0);
             $table->integer('UpdatedBy')->default(0);
@@ -34,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('ferry_price_master');
     }
 };

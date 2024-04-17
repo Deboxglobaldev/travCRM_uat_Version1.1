@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create(_FERRY_SEAR_MASTER_, function (Blueprint $table) {
+        Schema::create(_TRANSFER_MASTER_, function (Blueprint $table) {
             $table->id();
-            $table->string('FerrySeat');
+            $table->string('TransferName',200);
+            $table->string('Destinations',100);
+            $table->string('TransferType',100);
             $table->integer('Status')->default(0);
             $table->integer('AddedBy')->default(0);
             $table->integer('UpdatedBy')->default(0);
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('transfer_master');
     }
 };
